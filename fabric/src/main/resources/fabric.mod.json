@@ -9,12 +9,12 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "me.cameronwhyte.mods.template.fabric.TemplateFabric"
+      "${group}.fabric.TemplateFabric"
     ]
   },
   "mixins": [
-    "template-common.mixins.json",
-    "template.mixins.json"
+    "${id}-common.mixins.json",
+    "${id}.mixins.json"
   ],
   "depends": {
     "fabric": "*",
